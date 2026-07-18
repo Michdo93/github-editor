@@ -4,10 +4,10 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 // -----------------------------------------------------------------------
 // Konfiguration -- hier deine eigenen Werte eintragen
 // -----------------------------------------------------------------------
-const GITHUB_CLIENT_ID = "DEINE_GITHUB_CLIENT_ID";
-const WORKER_URL = "https://github-editor-worker.DEIN-SUBDOMAIN.workers.dev";
-const SUPABASE_URL = "https://DEINPROJEKT.supabase.co";
-const SUPABASE_ANON_KEY = "DEIN_SUPABASE_ANON_KEY";
+const GITHUB_CLIENT_ID = "Ov23liluThOliQxcwZJP";
+const WORKER_URL = "https://github-editor-worker.github-editor.workers.dev";
+const SUPABASE_URL = "https://ihsjjbhxyiyolobdlnxl.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imloc2pqYmh4eWl5b2xvYmRsbnhsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQzODUzMzgsImV4cCI6MjA5OTk2MTMzOH0.iU1UGYVgdfRFEtGXlQqyb24NytSdtRypdcpDR2JW1fg";
 const REDIRECT_URI = window.location.origin + window.location.pathname;
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
